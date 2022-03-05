@@ -9,16 +9,10 @@ This project is about eliminating bugs in  a drag&drop puzzle game.
 
 # The BUGS
 1. Function created to allow one piece to one dropzone.
-- Solution
---> Dropzones and puzzle pieces matched via data sets.
---> Function created to allow one piece to one dropzone
---> Return statement created to prevent wrong puzzle pieces to be dropped to the dropzone
 
 2. Background images couldn't be changed.
-- Solution --> Background data sets created to match with the bottom icons.
 
 3. Puzzle sets didn't reset when a new puzzle is selected.
-- Solution --> resetPuzzlePieces function created with paren-child properties.
 
 ## Contributors
 Aaron Do

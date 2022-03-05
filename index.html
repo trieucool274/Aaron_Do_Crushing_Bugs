@@ -4,23 +4,21 @@
 <meta charset="utf-8">
 	<title>Drag and Drop Puzzle Game</title>
 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-	<link href="css/ddmain.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header id="headLine">
-		<h2>Drag & Drop</h2>
+		<h1>Drag & Drop</h1>
+		<p>solve the puzzle</p>
 	</header>
 	<section id="game-boards">
-		<!-- these are draggable pieces -->
 		<div class="puzzle-pieces">
 			<img id="topLeft" src="images/dd/topLeft0.jpg" alt="top left" class="puzzle-image">
 			<img id="topRight" src="images/dd/topRight0.jpg" alt="top left" class="puzzle-image">
 			<img id="bottomLeft" src="images/dd/bottomLeft0.jpg" alt="top left" class="puzzle-image">
 			<img id="bottomRight" src="images/dd/bottomRight0.jpg" alt="top left" class="puzzle-image">
 		</div>
-		<!-- this is the drop zone  container-->
 		<div class="puzzle-board">
-			<!-- these are the drop zones -->
 			<div data-ref="topLeft" class="drop-zone"></div>
 			<div data-ref="topRight" class="drop-zone"></div>
 			<div data-ref="bottomLeft" class="drop-zone"></div>
@@ -29,7 +27,6 @@
 	</section>
 
 	<footer>
-		<!-- <h2 class="hidden">Switch the Puzzle</h2> -->
 		<p>click thumb to change pieces!</p>
 		<nav id="buttonHolder">
 			<h3 class="hidden">Select Image</h3>
@@ -40,6 +37,6 @@
 		</nav>
 	</footer>
 
-	<script src="js/ddapp.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
